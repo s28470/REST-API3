@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestApi3", "RestApi3\RestApi3.csproj", "{A20A888D-CA42-43DA-9858-42CFBAF81E19}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A20A888D-CA42-43DA-9858-42CFBAF81E19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A20A888D-CA42-43DA-9858-42CFBAF81E19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A20A888D-CA42-43DA-9858-42CFBAF81E19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A20A888D-CA42-43DA-9858-42CFBAF81E19}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
