@@ -16,4 +16,9 @@ public class Order
         CreatedAt = createdAt;
         FullFieldAt = fullFieldAt;
     }
+
+    public Order()
+    {   
+        throw new NotImplementedException();
+    }
 }

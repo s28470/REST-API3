@@ -19,7 +19,7 @@ public class WarehouseController : ControllerBase
     {
         int result;
         result = procedure ? _warehouseService.AddProductWarehouseProcedure(productWarehouse) : _warehouseService.AddProductWarehouse(productWarehouse);
-        return result == -1 ? Results.BadRequest(result) : Results.Ok(result);
+        return result == -1 ? Results.BadRequest() : Results.Ok(result);
     }
     
 }

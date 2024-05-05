@@ -5,7 +5,7 @@ public class ProductWarehouse
     public int IdProduct { get; init; }
     public int IdWarehouse { get; init; }
     public int Amount { get; init; }
-    public DateTime CreatedAt { get; init; }
+    public DateTime CreatedAt { get; set; }
     
     public ProductWarehouse(int idProduct, int idWarehouse, int amount, DateTime createdAt)
     {
