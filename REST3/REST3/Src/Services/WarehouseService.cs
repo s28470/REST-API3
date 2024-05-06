@@ -41,6 +41,6 @@ public class WarehouseService : IWarehouseService
 
     public async Task<int> AddProductWarehouseProcedureAsync(ProductWarehouse productWarehouse)
     {
-        return -1;
+        throw new NotImplementedException();
     }
 }

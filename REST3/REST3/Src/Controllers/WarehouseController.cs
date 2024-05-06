@@ -13,12 +13,7 @@ public class WarehouseController : ControllerBase
     {
         _warehouseService = warehouseService;
     }
-
-    [HttpGet]
-    public string Test()
-    {
-        return "hello world";
-    }
+    
 
     [HttpPost]
     public async Task<IResult> SendInfo(ProductWarehouse productWarehouse, [FromRoute] bool procedure = false)
